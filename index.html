@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Zaghab Sofiene MiniProjet web 1</title>
+
+</head>
+<body>
+
+<div class="container mt4">
+
+      <div class="row mt-2">
+          <div class="col">
+              <div class="alert alert-info">
+                  <div class="card-header">
+                      <h1>Stagiaires MyBetaApps</h1>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+    <div class="row"><div class="col"><div class="alert text-black alert-success">
+
+                <h2> Ajouter Stagiaire </h2>
+                    <table>
+                        <tr>
+                            <td>
+                                Nom et Prenom  <input width="200px" type="text" size="20" placeholder="Nom" id="a1">
+                            </td>
+
+                            <td>
+                                Institut d'origine <input width="200px" type="text" size="15" placeholder="Institut" id="a2">
+                            </td>
+
+                            <td> Service de stage
+                                <select width="200px" id="a3">
+                                    <option value="">-- Selection --</option>
+	    			                <option value="Developpement"> Developpement</option>
+                                    <option value="DevOps"> DevOps</option>
+	    		                </select>
+                            </td>
+                            <td>
+                                <button  class="btn btn-primary m-2" style="max-height: 30px; line-height: 12px"  onclick="Verif()"> <h7>Enregistrer</h7> </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="b1"></p>
+                            </td>
+
+                            <td>
+                                <p id="b12"></p>
+                            </td>
+
+                            <td>
+                                <p id="b13"></p>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+
+    </div></div></div>
+
+    <div class="row">
+        <div class="col">
+            <div class="alert text-black alert-secondary">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nom et Prenom</th>
+                        <th>Institut d'origine</th>
+                        <th>Service de stage</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tb1">
+
+                </tbody>
+            </table>
+      </div>
+      </div>
+    </div>
+      <div class="alert alert-info" >
+          <p><h5 style="text-align:center"> <b>Copyright ©® ZAGHAB-Sofiene 2024 </b></h5></p>
+      </div>
+    </div>
+<script src="functionsSavingToBrowserCache.js"></script>
+</body>
+</html>
